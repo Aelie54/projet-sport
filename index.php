@@ -37,12 +37,6 @@
         <OPTION>Pont bras au sol
         <OPTION>Pont bras tendus
 </SELECT>
-    </div>
-    <div>
-        <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
-    </div>
-</form>
 
     </body>
 </html>
