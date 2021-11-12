@@ -6,17 +6,18 @@
         <title>Practive Time</title>
     </head>
 
+
     <body>
 
 
 <div class="boutons">
-    <input class="Mes entraînements"
+    <input class="Mes_entraînements"
        type="button"
-       value="Add to favorites">
+       value="Mes entraînements">
 
-    <input class="Mon évolution"
+    <input class="Mon_évolution"
        type="button"
-       value="Add to favorites">
+       value="Mon évolution">
 </div>
 
 
@@ -90,4 +91,5 @@
 
 
     </body>
+    
 </html>
