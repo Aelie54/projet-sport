@@ -113,7 +113,8 @@
        value="Valider">
 </div>
 
-<!-- https://enacit.epfl.ch/cours/html/exercices/ex_boutons.html*/ -->
+<!-- https://enacit.epfl.ch/cours/html/exercices/ex_boutons.html*/ 
+     https://cssdeck.com/labs/css3-flexbox-flexible-box-layouts-flex-website -->
 
     </body>
 
