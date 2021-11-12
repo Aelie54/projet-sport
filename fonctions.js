@@ -1,3 +1,10 @@
-fonctions JS
+var choice = document.getElementById("select")
 
-xdfgcvjhbjnk*
+
+    if (choice.selectIndex == 0){
+
+    alert("fhh");
+
+}
+
+

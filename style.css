@@ -22,7 +22,7 @@ font-family:monospace ;
 }
 
 .exercices_choice{
-    display:none;
+    display:flex;
     flex-direction:flex;
     justify-content: center;
     text-align:center;
@@ -31,7 +31,8 @@ font-family:monospace ;
 }
 
 .afficher_exercice{
-    display:flex;
+    display:none;
+    /*display:flex;*/
     flex-direction:flex;
     justify-content: center;
     text-align:right;
