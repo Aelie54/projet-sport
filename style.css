@@ -2,24 +2,22 @@
     flex-direction:flex;
     justify-content: flex-end;
 
-    border-color: blue;
-    background-color:orange;
+    background-color: blue;
+
 }
 
 .exercices_choice{
     flex-direction:flex;
     justify-content: center;
 
-    border-color: red;
-    background-color:violet;
-
+    border-color: blue;
 }
 
 .afficher_exercice{
     flex-direction:flex;
     justify-content: center;
-    
-    border-color: greenyellow;
-    background-color:sandybrown;
+
+    border-color: blue;
+
 }
 
