@@ -91,9 +91,7 @@
             <OPTION>Oui
             </SELECT>
         </div>
-
-        <div class="bouton_valider">
-    <input class="Valider"
+        <input class="Valider"
        type="button"
        value="Valider">
 

@@ -1,5 +1,25 @@
 .boutons_nav {
-    flex:0 1 100%;
+    flex-direction:flex;
+    justify-content: flex-end;
+
     border-color: blue;
     background-color:orange;
 }
+
+.exercices_choice{
+    flex-direction:flex;
+    justify-content: center;
+
+    border-color: red;
+    background-color:violet;
+
+}
+
+.afficher_exercice{
+    flex-direction:flex;
+    justify-content: center;
+    
+    border-color: greenyellow;
+    background-color:sandybrown;
+}
+
