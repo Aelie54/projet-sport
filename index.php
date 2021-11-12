@@ -21,7 +21,7 @@
 </div>
 
 
-<div class="Exercices_choice">
+<div class="exercices_choice">
     <form action="/ma-page-de-traitement" method="post">
             <div>
                 <label for="Date AAAA-MM-NN">Nom :</label>
