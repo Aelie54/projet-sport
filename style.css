@@ -1,23 +1,71 @@
-.boutons_nav {
+body{
+background-color: beige;
+font-family:monospace ;
+}
+
+.boutons_nav { 
+    display:flex;
     flex-direction:flex;
     justify-content: flex-end;
 
-    border: 5px solid black;
+    /*border: 1px solid orange;*/
+
+}
+
+.boutons_valider { 
+    display:flex;
+    flex-direction:flex;
+    justify-content: center;
+
+    /*border: 1px solid orange;*/
 
 }
 
 .exercices_choice{
+    display:flex;
     flex-direction:flex;
     justify-content: center;
+    text-align:center;
 
-    border: 5px solid black;
+    /*border: 1px solid orange;*/
 }
 
 .afficher_exercice{
+    display:flex;
     flex-direction:flex;
     justify-content: center;
+    text-align:right;
 
-    border: 5px solid black;
-
+    /*border: 1px solid orange;*/
 }
 
+.image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.entrainements_choix{
+    display:flex;
+    flex-direction:flex;
+    justify-content: center;
+}
+
+.mon_evolution{
+    display:flex;
+    flex-direction:flex;
+    justify-content: center;
+}
+
+.session{
+    display:flex;
+    flex-direction:flex;
+    justify-content: center;
+    text-align:right;
+}
+
+.text {
+    text-align:center;
+    color: red ;
+    text-decoration: solid;
+}

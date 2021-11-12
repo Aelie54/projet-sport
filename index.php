@@ -11,18 +11,17 @@
 
     <body>
 
-
 <div class="boutons_nav">
     <input class="Mes_entraînements"
-       type="button"
+       type="button" onclick="window.location.href = 'mes_entrainements.php';"
        value="Mes entraînements">
 
     <input class="Mon_évolution"
-       type="button"
+       type="button" onclick="window.location.href = 'mon_evolution.php';"
        value="Mon évolution">
 </div>
 
-<br>
+<br><br><br>
 
 <div class="exercices_choice">
     <form action="/ma-page-de-traitement" method="post">
@@ -57,31 +56,43 @@
 </div>
 
 <br>
+<br>
+<img class="image" src="https://www.sport-passion.fr/pictures/alteres.jpg" />
+<br>
+<br>
 
 <div class="afficher_exercice">
     <form for="/truc" method="post">
         <div>
-            <label for="Kg">Poids :</label>
-            <input type="number" step="0.01" id="poids" name="dateuser_name">
+            <label for="Kg">Poids ajoutés :</label>
+            <input type="number" step="0.25" id="poids" name="dateuser_name">
         </div>
         <div>
             <label for="Nombre entier">Nombre de levées :</label>
             <input type="number" id="levees" name="dateuser_name">
         </div>
         <div>
-            <label for="Degrès">Pente :</label>
+            <label for="Degrès">Pente ou inclinaison :</label>
             <input type="number" id="pente" name="dateuser_name">
         </div>
         <div>
-            <label for="Minutes">Durée :</label>
+            <label for="Minutes">Durée de l'exercice :</label>
             <input type="entier" id="minutes" name="dateuser_name">
         </div>
         <div>
-            <label for="Km/h">Vitesse :</label>
-            <input type="number" step="0.01"  id="vitesse" name="dateuser_name">
+            <label for="Km/h">Vitesse de l'exercice :</label>
+            <input type="number" step="0.25"  id="vitesse" name="dateuser_name">
         </div>
         <div>
-            <label for="Nombre entier">Difficulté :</label>
+            <label for="Nombre entier">Difficulté choisie :</label>
+            <input type="number" id="difficulte" name="dateuser_name">
+        </div>
+        <div>
+            <label for="Nombre entier">Distance réalisée :</label>
+            <input type="number" step="0.25" id="difficulte" name="dateuser_name">
+        </div>
+        <div>
+            <label for="Nombre entier">Nombre de marches :</label>
             <input type="number" id="difficulte" name="dateuser_name">
         </div>
         <div>
@@ -91,11 +102,18 @@
             <OPTION>Oui
             </SELECT>
         </div>
-        <input class="Valider"
+    </form>
+</div>
+
+<br><br>
+
+<div class="boutons_valider">
+    <input class="Valider"
        type="button"
        value="Valider">
-
 </div>
+
+<!-- https://enacit.epfl.ch/cours/html/exercices/ex_boutons.html*/ -->
 
     </body>
 
