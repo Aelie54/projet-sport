@@ -10,7 +10,7 @@
     <body>
 
 
-<div class="boutons">
+<div class="boutons_nav">
     <input class="Mes_entraînements"
        type="button"
        value="Mes entraînements">
@@ -87,9 +87,18 @@
             <OPTION>Oui
             </SELECT>
         </div>
+
+        <div class="bouton_valider">
+    <input class="Valider"
+       type="button"
+       value="Valider">
+
+</div>
 </div>
 
 
+
+
     </body>
-    
+
 </html>
