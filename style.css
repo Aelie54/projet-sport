@@ -2,7 +2,7 @@
     flex-direction:flex;
     justify-content: flex-end;
 
-    background-color: blue;
+    border: 5px solid black;
 
 }
 
@@ -10,14 +10,14 @@
     flex-direction:flex;
     justify-content: center;
 
-    border-color: blue;
+    border: 5px solid black;
 }
 
 .afficher_exercice{
     flex-direction:flex;
     justify-content: center;
 
-    border-color: blue;
+    border: 5px solid black;
 
 }
 
