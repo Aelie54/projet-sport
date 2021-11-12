@@ -28,14 +28,14 @@
             </div>
         <SELECT for="selectionner exercice" name="exercise" size="1">
             <OPTION>Developpé couché
-            <OPTION>soulevé de terre
-            <OPTION>traction
-            <OPTION>soulevé militaire
-            <OPTION>squat
-            <OPTION>fente
-            <OPTION>corde traction triceps
-            <OPTION>tirage poitrine
-            <OPTION>extension lombaire
+            <OPTION>Soulevé de terre
+            <OPTION>Traction
+            <OPTION>Soulevé militaire
+            <OPTION>Squat
+            <OPTION>Fente
+            <OPTION>Corde traction triceps
+            <OPTION>Tirage poitrine
+            <OPTION>Extension lombaire
             <OPTION>Abdos sur banc : levé de jambes
             <OPTION>Abdos sur banc : levé de buste
             <OPTION>Tapis de course
@@ -57,27 +57,27 @@
     <form for="/truc" method="post">
         <div>
             <label for="Kg">Poids :</label>
-            <input type="date" id="date" name="dateuser_name">
+            <input type="number" step="0.01" id="poids" name="dateuser_name">
         </div>
         <div>
             <label for="Nombre entier">Nombre de levées :</label>
-            <input type="date" id="date" name="dateuser_name">
+            <input type="number" id="levees" name="dateuser_name">
         </div>
         <div>
             <label for="Degrès">Pente :</label>
-            <input type="date" id="date" name="dateuser_name">
+            <input type="number" id="pente" name="dateuser_name">
         </div>
         <div>
             <label for="Minutes">Durée :</label>
-            <input type="date" id="date" name="dateuser_name">
+            <input type="entier" id="minutes" name="dateuser_name">
         </div>
         <div>
             <label for="Km/h">Vitesse :</label>
-            <input type="date" id="date" name="dateuser_name">
+            <input type="number" step="0.01"  id="vitesse" name="dateuser_name">
         </div>
         <div>
             <label for="Nombre entier">Difficulté :</label>
-            <input type="date" id="date" name="dateuser_name">
+            <input type="number" id="difficulte" name="dateuser_name">
         </div>
         <div>
             <label for="Oui ou Non">Active :</label>
