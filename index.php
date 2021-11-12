@@ -8,8 +8,8 @@
 
     <body>
 
-<div class="boutons">
 
+<div class="boutons">
     <input class="Mes entraînements"
        type="button"
        value="Add to favorites">
@@ -17,19 +17,15 @@
     <input class="Mon évolution"
        type="button"
        value="Add to favorites">
-
 </div>
 
 
 <div class="Exercices_choice">
-
     <form action="/ma-page-de-traitement" method="post">
-
             <div>
                 <label for="Date AAAA-MM-NN">Nom :</label>
                 <input type="date" id="date" name="dateuser_name">
             </div>
-
         <SELECT for="selectionner exercice" name="exercise" size="1">
             <OPTION>Developpé couché
             <OPTION>soulevé de terre
@@ -53,11 +49,44 @@
             <OPTION>Pont bras au sol
             <OPTION>Pont bras tendus
             </SELECT>
-
     </form>
-    
 </div>
 
+
+<div class="afficher_exercice">
+    <form for="/truc" method="post">
+        <div>
+            <label for="Kg">Poids :</label>
+            <input type="date" id="date" name="dateuser_name">
+        </div>
+        <div>
+            <label for="Nombre entier">Nombre de levées :</label>
+            <input type="date" id="date" name="dateuser_name">
+        </div>
+        <div>
+            <label for="Degrès">Pente :</label>
+            <input type="date" id="date" name="dateuser_name">
+        </div>
+        <div>
+            <label for="Minutes">Durée :</label>
+            <input type="date" id="date" name="dateuser_name">
+        </div>
+        <div>
+            <label for="Km/h">Vitesse :</label>
+            <input type="date" id="date" name="dateuser_name">
+        </div>
+        <div>
+            <label for="Nombre entier">Difficulté :</label>
+            <input type="date" id="date" name="dateuser_name">
+        </div>
+        <div>
+            <label for="Oui ou Non">Active :</label>
+            <SELECT>
+            <OPTION>Non
+            <OPTION>Oui
+            </SELECT>
+        </div>
+</div>
 
 
     </body>
