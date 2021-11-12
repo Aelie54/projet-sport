@@ -3,7 +3,9 @@
     <head>
         <!-- En-tête de la page -->
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
         <title>Practive Time</title>
+
     </head>
 
 
@@ -20,6 +22,7 @@
        value="Mon évolution">
 </div>
 
+<br>
 
 <div class="exercices_choice">
     <form action="/ma-page-de-traitement" method="post">
@@ -53,6 +56,7 @@
     </form>
 </div>
 
+<br>
 
 <div class="afficher_exercice">
     <form for="/truc" method="post">
@@ -94,10 +98,6 @@
        value="Valider">
 
 </div>
-</div>
-
-
-
 
     </body>
 
