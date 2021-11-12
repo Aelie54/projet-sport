@@ -22,7 +22,7 @@ font-family:monospace ;
 }
 
 .exercices_choice{
-    display:flex;
+    display:none;
     flex-direction:flex;
     justify-content: center;
     text-align:center;
