@@ -1,49 +1,57 @@
 body{
-background-color: beige;
+/*background-color: beige;*/
 font-family:monospace ;
+background-image: url("https://background-tiles.com/overview/blue/patterns/large/1049.png");
+background-repeat: repeat;
 }
 
 .boutons_nav { 
     display:flex;
     flex-direction:flex;
     justify-content: flex-end;
-
     /*border: 1px solid orange;*/
-
 }
 
-.boutons_valider { 
+/*.bouton_valider { 
     display:flex;
     flex-direction:flex;
     justify-content: center;
 
-    /*border: 1px solid orange;*/
+    /*border: 1px solid orange;
 
-}
+}*/
 
 .exercices_choice{
-    display:flex;
+    /*display:flex;
     flex-direction:flex;
     justify-content: center;
+    text-align:center;*/
+    display:flex;
+    flex-direction:column;
     text-align:center;
-
-    /*border: 1px solid orange;*/
+    justify-content:center;
+    width: 380px;;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
 }
 
 .afficher_exercice{
     display:none;
-    /*display:flex;*/
-    flex-direction:flex;
-    justify-content: center;
+    flex-direction:column;
     text-align:right;
-
-    /*border: 1px solid orange;*/
+    justify-content:center;
+    width: 380px;;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke
 }
 
-.image{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
 }
 
 .entrainements_choix{
@@ -65,8 +73,6 @@ font-family:monospace ;
     text-align:right;
 }
 
-.text {
-    text-align:center;
-    color: red ;
-    text-decoration: solid;
+.bouton_valider{
+    width : 218px ;
 }
