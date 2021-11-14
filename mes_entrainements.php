@@ -3,7 +3,7 @@
     <head>
         <!-- En-tête de la page -->
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style2.css" />
         <title>Practive Time</title>
 
     </head>
@@ -20,9 +20,6 @@
         <SELECT for="selectionner une année" name="année" size="1">
             <OPTION>2021
             <OPTION>2022
-            <OPTION>2023
-            <OPTION>2024
-            <OPTION>2025
         </SELECT>
 
         <SELECT for="selectionner un mois" name="année" size="1">
@@ -54,13 +51,14 @@
             <OPTION>
             <OPTION>
         </SELECT>
-</div>
+    </div>
 
-<div class="boutons_valider">
-    <input class="Valider"
+    <div class="mon_entrainement"> 
+    <input class="bouton_valider"
        type="button"
        value="Valider">
-</div>
+    </div>
 
-    </form>
+</form>
+
     </body>

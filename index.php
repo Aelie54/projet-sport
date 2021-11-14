@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">   
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style2.css" />
         <script type="text/javascript" src="fonctions.js"></script>
         <title>Practive Time</title>
 
@@ -30,7 +30,7 @@
     <form method="post" required>
         <div><br>
             <label for="Date AAAA-MM-NN">Nom :</label>
-            <input type="date" id="date" name="dateuser_name">
+            <input:required type="date" id="date" name="dateuser_name">
         </div><br>
 
         <select for="selectionner exercice" name="select" id= "mychoice">
@@ -77,12 +77,12 @@
 
         <div id="poids">
             <label for="Kg">Poids ajoutés :</label>
-            <input type="number" step="0.25" id="poids" name="dateuser_name"> 
+            <input type="number" step="0.25" id="poids" min="0" name="dateuser_name"> 
         </div>
 
         <div id="nombre">
             <label for="Nombre entier">Nombre de levées :</label>
-            <input type="number" id="levees" name="dateuser_name">
+            <input type="number" id="levees"  min="0" name="dateuser_name">
         </div>
 
         <div id="degrès">
@@ -92,34 +92,34 @@
 
         <div id="minutes">
             <label for="Minutes">Durée de l'exercice :</label>
-            <input type="entier" id="minutes" name="dateuser_name">
+            <input type="entier" id="minutes"  min="0" name="dateuser_name">
         </div>
 
         <div id="vitesse">
             <label for="Km/h">Vitesse de l'exercice :</label>
-            <input type="number" step="0.25"  id="vitesse" name="dateuser_name">
+            <input type="number" step="0.25"  id="vitesse"  min="0" name="dateuser_name">
         </div>
 
         <div id="difficulte">
             <label for="Nombre entier">Difficulté choisie :</label>
-            <input type="number" id="difficulte" name="dateuser_name">
+            <input type="number" id="difficulte" min="0" name="dateuser_name">
         </div>
 
         <div id="distance">
             <label for="Nombre entier">Distance réalisée :</label>
-            <input type="number" step="0.25" id="difficulte" name="dateuser_name">
+            <input type="number" step="0.25" id="difficulte"  min="0" name="dateuser_name">
         </div>
 
         <div id="marches">
             <label for="Nombre entier">Nombre de marches :</label>
-            <input type="number" id="difficulte" name="dateuser_name">
+            <input type="number" id="difficulte"  min="0" name="dateuser_name">
         </div>
 
         <div id="active">
             <label for="Oui ou Non">Active :</label>
             <select>
-            <OPTION>Non
-            <OPTION>Oui
+            <option>Non</option>
+            <option>Oui</option>
             </select>
         </div>
 

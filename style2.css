@@ -16,9 +16,7 @@ background-repeat: repeat;
     display:flex;
     flex-direction:flex;
     justify-content: center;
-
-    /*border: 1px solid orange;
-
+    border: 1px solid orange;
 }*/
 
 .exercices_choice{
@@ -52,12 +50,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     height: 220px;
-}
-
-.entrainements_choix{
-    display:flex;
-    flex-direction:flex;
-    justify-content: center;
 }
 
 .mon_evolution{
