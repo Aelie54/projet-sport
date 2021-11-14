@@ -27,6 +27,7 @@
 <!-- entrer date et choix exercice-->
 <div class="exercices_choice">
     <form action="" method="post" required>
+
             <div><br>
                 <label for="Date AAAA-MM-NN">Nom :</label>
                 <input:required type="date" id="date" name="dateuser_name">
@@ -34,7 +35,6 @@
 
             <select for="selectionner exercice" name="select" id= "mychoice">
                 <option value="selectionner_exercice">selectionner exercice</option>
-                <!-- Index = 0 et Valeur = selectionner_exercice et Texte = selectionner exercice -->
                 <option value="developpe_couche">Developpé couché</option>
                 <option value="souleve_de_terre">Soulevé de terre</option>
                 <option value="traction">Traction</option>
@@ -61,9 +61,10 @@
             
             <button type="button" onclick="choose()" id="bouton_selection">Sélectionner</button>
         <br><br>
+</div>
 
-    <!-- afficher image exercice et champs apramètres à remplir-->
-        <div class="afficher_exercice" id="flexbox">
+<!-- afficher image exercice et champs apramètres à remplir-->
+<div class="afficher_exercice" id="flexbox">
 
         <div id="image"><br>
             <img  id="image2" src="https://www.sport-passion.fr/pictures/alteres.jpg" />
@@ -115,24 +116,16 @@
             <option>Non</option>
             <option>Oui</option>
             </select>
-        </div>
-
-    <br><br>
+        </div><br><br>
 
         <div class="bouton_valider" id="valider">
             <input class="Valider"
             type="button"
             value="Valider"
             id="valider">
-        </div>
-
-    </form>
-
-<br>
+        </div><br>
 </div>
-
-<!-- https://enacit.epfl.ch/cours/html/exercices/ex_boutons.html*/ 
-     https://cssdeck.com/labs/css3-flexbox-flexible-box-layouts-flex-website -->
+    </form><br>
 
     </body>
 
