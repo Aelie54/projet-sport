@@ -1,0 +1,79 @@
+body{
+    /*background-color: beige;*/
+    font-family:monospace ;
+    background-image: url("https://background-tiles.com/overview/blue/patterns/large/1049.png");
+    background-repeat: repeat;
+    }
+    
+    .boutons_nav { 
+        display:flex;
+        flex-direction:flex;
+        justify-content: flex-end;
+        /*border: 1px solid orange;*/
+    }
+    
+    /*.bouton_valider { 
+        display:flex;
+        flex-direction:flex;
+        justify-content: center;
+        border: 1px solid orange;
+    }*/
+    
+    .exercices_choice{
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        justify-content:center;
+        width: 380px;;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: whitesmoke;
+    }
+    
+    .afficher_exercice{
+        display:none;
+        flex-direction:column;
+        text-align:right;
+        justify-content:center;
+        width: 380px;;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: whitesmoke
+    }
+
+    .flex{
+       
+        display:none;
+        flex-direction:column;
+        text-align:right;
+        justify-content:center;
+        width: 380px;;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: whitesmoke
+
+    }
+    
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 220px;
+    }
+    
+    .mon_evolution{
+        display:flex;
+        flex-direction:flex;
+        justify-content: center;
+    }
+    
+    .session{
+        display:flex;
+        flex-direction:flex;
+        justify-content: center;
+        text-align:right;
+    }
+    
+    .bouton_valider{
+        width : 218px ;
+    }
