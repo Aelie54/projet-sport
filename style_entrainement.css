@@ -1,5 +1,4 @@
 body{
-/*background-color: beige;*/
 font-family:monospace ;
 background-image: url("https://background-tiles.com/overview/blue/patterns/large/1049.png");
 background-repeat: repeat;
@@ -9,26 +8,14 @@ background-repeat: repeat;
     display:flex;
     flex-direction:flex;
     justify-content: flex-end;
-    /*border: 1px solid orange;*/
 }
 
-/*.bouton_valider { 
-    display:flex;
-    flex-direction:flex;
-    justify-content: center;
-    border: 1px solid orange;
-}*/
-
 .exercices_choice{
-    /*display:flex;
-    flex-direction:flex;
-    justify-content: center;
-    text-align:center;*/
     display:flex;
     flex-direction:column;
     text-align:center;
     justify-content:center;
-    width: 380px;;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     background-color: whitesmoke;
@@ -37,9 +24,9 @@ background-repeat: repeat;
 .afficher_exercice{
     display:none;
     flex-direction:column;
-    text-align:right;
+    text-align:center;
     justify-content:center;
-    width: 380px;;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     background-color: whitesmoke
@@ -52,19 +39,17 @@ img {
     height: 220px;
 }
 
-.mon_evolution{
-    display:flex;
-    flex-direction:flex;
-    justify-content: center;
-}
-
-.session{
-    display:flex;
-    flex-direction:flex;
-    justify-content: center;
-    text-align:right;
-}
-
-.bouton_valider{
+input[type="button"] {
+    background-color: rgb(131, 161, 189);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
     width : 218px ;
+}
+
+input[type=button]:hover {
+    background-color: rgb(241, 250, 250);
+    color: #2c6d8b;
+    border: 1px solid #2c6d8b;
 }

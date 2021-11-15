@@ -1,0 +1,52 @@
+body{
+    font-family:monospace ;
+    background-image: url("https://background-tiles.com/overview/blue/patterns/large/1049.png");
+    background-repeat: repeat;
+}
+
+
+form {/* Bordered form */
+    width:80%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-left:50px;
+}
+
+.session {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+input[type=text], input[type=password] {/* Full-width inputs */
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: rgb(131, 161, 189);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: rgb(241, 250, 250);
+    color: #2c6d8b;
+    border: 1px solid #2c6d8b;
+}
+
+h3{
+
+    text-align: center;
+}

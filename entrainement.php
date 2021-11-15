@@ -1,11 +1,14 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">   
-        <link rel="stylesheet" href="style2.css" />
+        <link rel="stylesheet" href="style_entrainement.css" />
         <script type="text/javascript" src="fonctions.js"></script>
-        <title>Practive Time</title>
+        <title>Practice Time</title>
+
     </head>
 
     <body>
@@ -13,10 +16,10 @@
 <!-- deux boutons du haut-->
 <div class="boutons_nav">
     <br><br>
-    <input class="Mes_entraînements"
+    <input class="nav"
        type="button" onclick="window.location.href = 'mes_entrainements.php';"
        value="Mes entraînements">
-    <input class="Mon_évolution"
+    <input class="nav"
        type="button" onclick="window.location.href = 'mon_evolution.php';"
        value="Mon évolution">
     <br><br>
