@@ -32,7 +32,7 @@
     <form action="" method="post" required>
 
             <div><br>
-                <label for="Date AAAA-MM-NN">Nom :</label>
+                <label for="Date AAAA-MM-NN">Nom de l'exercice :</label>
                 <input:required type="date" id="date" name="dateuser_name">
             </div><br>
 
@@ -65,6 +65,8 @@
             <button type="button" onclick="choose()" id="bouton_selection">Sélectionner</button>
         <br><br>
 </div>
+
+<br><br>
 
 <!-- afficher image exercice et champs apramètres à remplir-->
 <div class="afficher_exercice" id="flexbox">
@@ -128,7 +130,9 @@
             id="valider">
         </div><br>
 </div>
-    </form><br>
+
+    </form>
+<br>
 
     </body>
 

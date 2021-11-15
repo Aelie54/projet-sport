@@ -10,26 +10,40 @@ background-repeat: repeat;
     justify-content: flex-end;
 }
 
-.exercices_choice{
+.exercices_choice{ /*choix exercice liste*/
     display:flex;
     flex-direction:column;
     text-align:center;
     justify-content:center;
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px 0px, rgba(0, 0, 0, 0.24) 0px 5px 5px 0px;
+    padding: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(241, 241, 241);
+    border-image: initial;
+    background: rgb(255, 255, 255);
 }
 
-.afficher_exercice{
+.afficher_exercice{ /*parametres qui s'affichent en fonction de l'exercice*/
     display:none;
     flex-direction:column;
     text-align:center;
     justify-content:center;
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px 0px, rgba(0, 0, 0, 0.24) 0px 5px 5px 0px;
+    padding: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(241, 241, 241);
+    border-image: initial;
+    background: rgb(255, 255, 255);
 }
 
 img {
@@ -52,4 +66,14 @@ input[type=button]:hover {
     background-color: rgb(241, 250, 250);
     color: #2c6d8b;
     border: 1px solid #2c6d8b;
+}
+
+label
+{
+	display: block;
+	width: 250px;
+	float: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
