@@ -1,3 +1,5 @@
+<?php include ("login.php"); ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,7 +13,7 @@
     <body>
 
 <div class="session">
-        <form action="/projet_sport_amelie/login.php" method="post">
+        <form action="/projet_sport_amelie/entrainement.php" method="post">
     <h3> Connecte toi ! </h3>
     <br>
         <div>
@@ -23,7 +25,6 @@
             <input type="password" id="mdp" name="password">
         </div>
 <br>
-
         <div class="boutons_valider">
             <br><input class="Valider"
        type="submit"

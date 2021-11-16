@@ -1,6 +1,6 @@
 <?php
 
-include ("variables.php") ;
+include ("variables.php");
 $postData = $_POST;
 
 if (isset($postData['email']) && isset($postData['password'])) {
@@ -10,8 +10,8 @@ if (isset($postData['email']) && isset($postData['password'])) {
         ) {
             $loggedUser = [
                 'email' => $user['email'],
-                $_SESSION['LOGGED_USER'] = $loggedUser['email'];
-                header('Location: /projet_sport_amelie/entrainement.php'); 
+                $_SESSION['LOGGED_USER'] = $loggedUser['email'],
+                header('Location: /projet_sport_amelie/entrainement.php'), 
             ];
 
             /* Cookie qui expire dans un an*/
@@ -34,21 +34,19 @@ if (isset($postData['email']) && isset($postData['password'])) {
     }
 }
 
+
 // Si le cookie ou la session sont présentes
 if (isset($_COOKIE['LOGGED_USER']) || isset($_SESSION['LOGGED_USER'])) {
     $loggedUser = [
         'email' => $_COOKIE['LOGGED_USER'] ?? $_SESSION['LOGGED_USER'],
     ];}
 
- if(!isset($loggedUser)): 
+if(isset($loggedUser)){
 
- else
-    
-    {
-        header('Location: /projet_sport_amelie/entrainement.php'); 
+header("Location:/projet_sport_amelie/entrainement.php");        
+
     }
     
     ?>
-   
-<?php endif; ?>
 
+<?php ?>
